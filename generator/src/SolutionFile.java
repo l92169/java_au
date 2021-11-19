@@ -12,6 +12,18 @@ public class SolutionFile {
         this.fileName = fileName;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SolutionFile that = (SolutionFile) o;
+        return Objects.equals(data, that.data) && fileType == that.fileType && Objects.equals(fileName, that.fileName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(data, fileType, fileName);
+    }
 
     private static List<ItemEntity> parseMDFile(List<String> content){
         List<ItemEntity> lst = new ArrayList<>();
