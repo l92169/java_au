@@ -1,4 +1,4 @@
-# array.md
+# linked-list.md
 
 + [merge-two-sorted-lists](#merge-two-sorted-lists)
 
