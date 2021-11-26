@@ -1,4 +1,4 @@
-# array.md
+# linked-list.md
 
 + [reverse-linked-list](#reverse-linked-list)
 
