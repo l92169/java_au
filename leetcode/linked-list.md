@@ -74,7 +74,7 @@ class SolutionTest {
 ```
 
 ``` java
-другие классы, если имеютсяimport java.util.Objects;
+import java.util.Objects;
 
 public class ListNode { int val;
     ListNode next;
