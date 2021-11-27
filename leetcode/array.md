@@ -1,4 +1,4 @@
-                          # array.md
+# array.md
 
 + [squares-of-a-sorted-array](#squares-of-a-sorted-array)
 
