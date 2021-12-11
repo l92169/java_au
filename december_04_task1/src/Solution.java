@@ -7,19 +7,8 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.groupingBy;
 
 public class Solution {
-
     public static void main(String[] args) {
-        String[] output = new String[] {"i","love","leetcode","i","love","coding"};
-        System.out.println(topKFrequent(output,2));
-        System.out.println(getWords("hellooo my nameeeee is Lisa"));
-        System.out.println(getReversedWords("hello my name is Lisa"));
-        System.out.println(getDistanceSorted(List.of(-1,-2,3,8,9), List.of(5,5,-5,7,-10)));
-        List<Post> f = getTop10(List.of(new Post(1, 5, List.of("Hello","My name is Liza")),
-                                        new Post(1, 2, List.of("Hello","My name is Liza","My name is Liza")),
-                                        new Post(1, 2, List.of("Hello","My name is Liza","My name is Liza"))));
-        System.out.println(getTop10(List.of(new Post(1, 5, List.of("Hello","My name is Liza")),
-                new Post(1, 2, List.of("Hello","My name is Liza","My name is Liza")),
-                new Post(1, 2, List.of("Hello","My name is Liza","My name is Liza")))));
+
     }
 
     public static List<String> getWords(String str) {

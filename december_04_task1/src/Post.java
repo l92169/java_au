@@ -4,17 +4,17 @@ import java.util.Objects;
 public class Post {
     private int id;
     public int likes;
-    public List<String> comments;
+    public List<Comment> comments;
     private String text;
     private int authorId;
 
-    public Post(int id, int likes, List<String> comments) {
+    public Post(int id, int likes, List<Comment> comments) {
          this.id = id;
          this.likes = likes;
          this.comments = comments;
     }
 
-    public List<String> getComments() {
+    public List<Comment> getComments() {
         return comments;
     }
 
