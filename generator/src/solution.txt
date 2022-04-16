@@ -1,0 +1,5 @@
+design-twitter
+https://leetcode.com/problems/design-twitter/
+def __init__(self):
+    self.users = {}
+
